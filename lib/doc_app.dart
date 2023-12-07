@@ -16,7 +16,7 @@ class DocApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            primaryColor: ColorsManager.primaryColor,
+            primaryColor: ColorsManager.mainBlue,
             scaffoldBackgroundColor: Colors.white),
         initialRoute: Routes.onBoardingScreen,
         onGenerateRoute: appRouter.generateRoute,
