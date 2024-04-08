@@ -9,7 +9,7 @@ import 'package:ultimate_code_refrence/features/on_boarding/on_boarding_screen.d
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     final arguments = settings.arguments;
-    //this is for commit test
+    //this is too hard
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
